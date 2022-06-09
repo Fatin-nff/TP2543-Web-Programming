@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function checkMonth(month) {
+			var ele=document.getElementById('text');
+			//if(ele !== null) {
+				switch(month) {
+					case 1:
+					ele.innerHTML="This is January.";
+					break;
+
+					case 2:
+					ele.innerHTML="This is February.";
+					break;
+
+					case 3:
+					ele.innerHTML="This is March.";
+					break;
+
+					case 4:
+					ele.innerHTML="This is April.";
+					break;
+
+					case 5:
+					ele.innerHTML="This is May.";
+					break;
+
+					case 6:
+					ele.innerHTML="This is June.";
+					break;
+
+					case 7:
+					ele.innerHTML="This is July.";
+					break;
+
+					case 8:
+					ele.innerHTML="This is August.";
+					break;
+
+					case 9:
+					ele.innerHTML="This is September.";
+					break;
+
+					case 10:
+					ele.innerHTML="This is October.";
+					break;
+
+					case 11:
+					ele.innerHTML="This is November.";
+					break;
+
+					case 12:
+					ele.innerHTML="This is December.";
+					break;
+				}
+			//}
+		}
+	</script>
+</head>
+<body>
+	<p id='text'></p>
+	<input type="button" onclick="return checkMonth(4)" value="click me to check output">
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function primefac() {
+			var no;
+			var i=2;
+			no=prompt("Enter any positive number");
+			no=parseInt(no);
+
+			while(i <= no) {
+				if(no%i == 0)
+				{
+					document.write(i + ",");
+					no=(no/i);
+					i=1;
+				}
+				i++;
+			}
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="click me to find the prime factors" onclick="return primefac();">
+</body>
+</html>
